@@ -1,6 +1,6 @@
 {
-    "name": "squirephp/countries-es",
-    "description": "A library containing the Spanish translation of Squire's Country model.",
+    "name": "squirephp/countries-pt-PT",
+    "description": "A library containing the European Portuguese translation of Squire's Country model.",
     "keywords": [
         "squire"
     ],
@@ -14,6 +14,10 @@
         {
             "name": "Dan Harrin",
             "email": "dan@danharrin.com"
+        },
+        {
+            "name": "Sergio Jardim",
+            "email": "sergio@sergiojardim.com"
         }
     ],
     "require": {
@@ -30,7 +34,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Squire\\CountriesEsServiceProvider"
+                "Squire\\CountriesPtPtServiceProvider"
             ]
         }
     },
